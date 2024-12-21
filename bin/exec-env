@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+if [ "${VROOT:-}" = "" ]; then
+  export VROOT="$ASDF_INSTALL_PATH"
+fi
